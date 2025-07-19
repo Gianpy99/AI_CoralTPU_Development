@@ -1,0 +1,69 @@
+# Jupyter notebooks for analysis
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files
+*.csv
+*.json
+*.h5
+*.pkl
+
+# Model files
+*.tflite
+*.h5
+*.pb
+*.onnx
+
+# Logs
+logs/
+*.log
+
+# Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# API keys and secrets
+api_keys.txt
+secrets.json
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Database
+*.db
+*.sqlite3
+
+# Node modules (if using any JS tools)
+node_modules/
+
+# Python distribution
+build/
+dist/
+*.egg-info/

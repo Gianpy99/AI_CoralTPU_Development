@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  coral-tpu-trading:
+    build: .
+    container_name: coral-tpu-trading
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./models:/app/models
+      - ./.env:/app/.env
+    devices:
+      - /dev/bus/usb:/dev/bus/usb  # For USB Coral TPU
+    environment:
+      - TRADING_MODE=simulation
+      - ENABLE_DASHBOARD=true
+      - LOG_LEVEL=INFO
+    restart: unless-stopped
+    
+  # Optional: Redis for caching
+  redis:
+    image: redis:alpine
+    container_name: coral-redis
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    
+  # Optional: PostgreSQL for data storage
+  postgres:
+    image: postgres:13
+    container_name: coral-postgres
+    environment:
+      POSTGRES_DB: trading_data
+      POSTGRES_USER: trading_user
+      POSTGRES_PASSWORD: secure_password_here
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
