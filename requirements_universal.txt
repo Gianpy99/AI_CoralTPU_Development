@@ -1,0 +1,60 @@
+# Core AI and TPU dependencies
+tflite-runtime>=2.5.0
+pycoral>=2.0.0
+
+# Computer Vision and Image Processing
+opencv-python>=4.5.0
+opencv-contrib-python>=4.5.0
+Pillow>=8.0.0
+
+# Scientific Computing
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+
+# Data Visualization
+matplotlib>=3.3.0
+seaborn>=0.11.0
+
+# Crypto Trading (existing)
+ccxt>=2.0.0
+binance>=1.0.0
+python-dotenv>=0.19.0
+
+# Web Framework (existing)
+fastapi>=0.70.0
+uvicorn[standard]>=0.15.0
+
+# Logging and Utilities
+loguru>=0.6.0
+requests>=2.25.0
+
+# Technical Analysis (existing)
+TA-Lib>=0.4.0; sys_platform != "win32"
+talib-binary>=0.4.0; sys_platform == "win32"
+
+# Development and Testing
+pytest>=6.0.0
+black>=21.0.0
+flake8>=4.0.0
+
+# Optional: Jupyter for analysis
+jupyter>=1.0.0
+notebook>=6.0.0
+ipykernel>=6.0.0
+
+# Optional: Advanced ML
+tensorflow>=2.8.0,<2.13.0
+torch>=1.10.0; sys_platform != "darwin"
+torchvision>=0.11.0; sys_platform != "darwin"
+
+# Optional: GPU acceleration (CUDA)
+tensorflow-gpu>=2.8.0,<2.13.0; sys_platform == "linux"
+
+# Optional: Audio processing
+librosa>=0.8.0
+soundfile>=0.10.0
+
+# Optional: Real-time streaming
+streamlit>=1.0.0
+gradio>=3.0.0

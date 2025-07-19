@@ -51,6 +51,46 @@ ENV/
 api_keys.txt
 secrets.json
 
+# ===========================================
+# PRIVACY & PERSONAL DATA - DO NOT COMMIT!
+# ===========================================
+
+# Cartelle foto personali per training
+people_photos/
+persons_photos/
+people_database/
+persons_database/
+custom_objects_photos/
+custom_objects_database/
+training_photos/
+user_photos/
+
+# Database con dati personali
+person_database.pkl
+persons_templates.pkl
+person_templates.pkl
+custom_objects_templates.pkl
+face_encodings.pkl
+improved_face_database.pkl
+advanced_recognition_db/
+
+# Screenshot e catture
+*.jpg
+*.jpeg
+*.png
+*.bmp
+!models/*.jpg
+!models/*.png
+!docs/*.jpg
+!docs/*.png
+!README*.jpg
+!README*.png
+
+# Performance logs con dati sensibili
+tpu_performance_log.json
+performance_*.json
+monitoring_*.log
+
 # Temporary files
 temp/
 tmp/

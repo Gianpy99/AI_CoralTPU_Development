@@ -283,12 +283,84 @@ jupyter notebook notebooks/
 - Consulta la documentazione in `README.md`
 - I notebook Jupyter contengono esempi dettagliati
 
-## 🎉 Buon Trading!
+## 🚀 SISTEMA UNIVERSALE CORAL TPU
 
-Hai ora un sistema completo di trading crypto con AI e Coral TPU. Ricorda:
-- **Testa sempre** prima di usare denaro reale
-- **Monitora costantemente** le performance
-- **Aggiorna regolarmente** i modelli AI
-- **Gestisci sempre il rischio**
+Il tuo sistema è ora **UNIVERSALE**! Oltre al trading crypto, puoi usare il Coral TPU per:
+
+### 📹 **Computer Vision Live**
+```bash
+# Classificazione immagini in tempo reale
+python universal_app.py --mode vision --vision-type classification
+
+# Rilevamento oggetti live
+python universal_app.py --mode vision --vision-type detection
+```
+
+### 📸 **Foto con AI**
+```bash
+# Scatta foto e analizza con AI
+python universal_app.py --mode photo
+```
+
+### 💰 **Trading Crypto** (originale)
+```bash
+# Predizioni crypto con AI
+python universal_app.py --mode crypto
+```
+
+### 🎮 **Menu Interattivo**
+```bash
+# Avvia il menu principale
+python universal_app.py
+```
+
+### 🎪 **Demo Completo**
+```bash
+# Mostra tutte le funzionalità
+python universal_app.py --mode demo
+```
+
+## ⚙️ **Setup Rapido Nuovo Sistema**
+
+```bash
+# 1. Installa dipendenze aggiuntive (OpenCV, PIL, etc.)
+python setup_universal.py
+
+# 2. Testa tutto il sistema
+python universal_app.py --mode demo
+
+# 3. Test rapidi
+python quick_camera_test.py    # 📸 Test camera
+python quick_crypto_test.py    # 💰 Test crypto
+```
+
+## 🎯 **Controlli Camera Live**
+Durante lo stream video:
+- **`q`** - Esci
+- **`s`** - Salva frame
+- **`c`** - Cambia modello AI
+- **`p`** - Pausa/Riprendi
+
+## 📊 **Modelli AI Disponibili**
+- **crypto_trading**: Predizioni trading
+- **image_classification**: Riconoscimento immagini
+- **object_detection**: Rilevamento oggetti
+- **face_detection**: Rilevamento volti
+
+## 🔧 **Configurazione**
+Modifica `inference_config.json` per personalizzare:
+- Soglie di confidenza
+- Risoluzione camera
+- Modelli da caricare
+
+## 🎉 Buon Divertimento!
+
+Hai ora un sistema **UNIVERSALE** di AI con Coral TPU che supporta:
+- **💰 Trading crypto** con AI in tempo reale
+- **👁️ Computer vision** con camera live
+- **📸 Analisi foto** con AI avanzata
+- **🔍 Riconoscimento oggetti** e classificazione
+
+**📖 Documentazione completa**: `README_UNIVERSAL.md`
 
 **DISCLAIMER**: Questo sistema è per scopi educativi. Il trading comporta rischi. Non investire mai più di quanto puoi permetterti di perdere!

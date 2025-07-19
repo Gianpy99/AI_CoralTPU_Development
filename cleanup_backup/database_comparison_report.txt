@@ -1,0 +1,40 @@
+REPORT CONFRONTO DATABASE RICONOSCIMENTO
+==================================================
+
+Generato: 2025-07-19 21:43:46
+
+OPENCV TRADIZIONALE
+--------------------
+✅ Veloce e leggero
+✅ Dipendenze minime
+✅ Funziona su hardware limitato
+✅ Stabile e testato
+✅ Facile da implementare
+✅ Basso uso memoria
+
+❌ Precisione limitata
+❌ Sensibile a illuminazione
+❌ Problemi con angolazioni
+❌ Falsi positivi frequenti
+❌ Non scala bene
+❌ Features semplici (Haar, LBP)
+❌ No deep learning
+
+SISTEMA AVANZATO
+--------------------
+✅ Accuracy molto alta (90%+)
+✅ Deep learning features
+✅ Robusto a variazioni
+✅ Multiple tecnologie
+✅ Scalabilità eccellente
+✅ Vector search veloce
+✅ Database relazionale
+✅ Statistiche dettagliate
+
+❌ Dipendenze pesanti
+❌ Più lento in setup
+❌ Richiede più memoria
+❌ Complessità maggiore
+❌ GPU raccomandata
+❌ Modelli da scaricare
+
